@@ -1,8 +1,10 @@
+import NavWeb from "./_nav/page";
+import React from "react";
+
 export default function Home() {
   return (
-    <div>
-      <button className="btn-primary">Save changes</button>
-      <main>Hello</main>
-    </div>
+    <main>
+      <NavWeb />
+    </main>
   );
 }
